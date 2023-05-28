@@ -1,0 +1,195 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+color: #333;
+}
+
+nav {
+background-color: #333;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav li {
+margin: 0 10px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+}
+
+#banner {
+background-color: #f7f7f7;
+text-align: center;
+padding: 100px 0;
+}
+
+#banner img {
+max-width: 100%;
+height: auto;
+margin-bottom: 20px;
+}
+
+#featured {
+padding: 50px 0;
+background-color: #f2f2f2;
+text-align: center;
+}
+
+#featured h2 {
+margin-bottom: 20px;
+}
+
+#featured ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#featured li {
+width: 30%;
+margin-bottom: 30px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+border-radius: 5px;
+}
+
+#featured li img {
+max-width: 100%;
+height: auto;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+#featured li h3 {
+padding: 10px;
+margin: 0;
+font-size: 20px;
+}
+
+#featured li p {
+padding: 10px;
+margin: 0;
+}
+
+#recent-updates {
+padding: 50px 0;
+text-align: center;
+}
+
+#recent-updates h2 {
+margin-bottom: 20px;
+}
+
+#recent-updates ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#recent-updates li {
+width: 30%;
+margin-bottom: 30px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+border-radius: 5px;
+padding: 10px;
+text-align: left
+}
+
+#recent-updates li h3 {
+	margin: 0;
+	font-size: 20px;
+}
+
+#recent-updates li p {
+	margin: 0;
+}
+
+#upcoming-events {
+	padding: 50px 0;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+#upcoming-events h2 {
+	margin-bottom: 20px;
+}
+
+#upcoming-events ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#upcoming-events li {
+	width: 30%;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	text-align: left;
+}
+
+#upcoming-events li img {
+	max-width: 100%;
+	height: auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#upcoming-events li h3 {
+	padding: 10px;
+	margin: 0;
+	font-size: 20px;
+}
+
+#upcoming-events li p {
+	padding: 10px;
+	margin: 0;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #444;
+}
+
+@media (max-width: 768px) {
+	#featured li, #recent-updates li, #upcoming-events li {
+		width: 45%;
+	}
+}
+
+@media (max-width: 576px) {
+	#featured li, #recent-updates li, #upcoming-events li {
+		width: 100%;
+	}
+}

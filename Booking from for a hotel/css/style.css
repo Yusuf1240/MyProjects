@@ -1,0 +1,39 @@
+body {
+	background-image: url('../images/image1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 16px 32px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
